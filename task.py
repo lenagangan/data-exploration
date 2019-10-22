@@ -2,12 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.impute import SimpleImputer
-from sklearn.metrics import mean_absolute_error
-from sklearn.pipeline import make_pipeline
-
 
 # Read the cvs file into a pandas df.
 df = pd.read_csv('metro-bike-share-trip-data.csv', low_memory=False)
